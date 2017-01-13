@@ -3,7 +3,7 @@ defmodule PhxOembed.CardTest do
 
   alias PhxOembed.Card
 
-  @valid_attrs %{}
+  @valid_attrs %{url: "https://example.com/ducks", card_type: "twitter"}
   @invalid_attrs %{}
 
   test "changeset with valid attributes" do
